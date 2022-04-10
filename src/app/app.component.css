@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.task{
+    text-align: center;
+    text-decoration-color: blue;
+}
+h1{
+    position:relative;
+   
+}
+h1:before{
+    content:"";
+    width:200px;
+    height:3px;
+    display:block;
+    background-color:palevioletred;
+    position:absolute;
+    margin-left:380px;
+    margin-top:14.5px
+}
+ h1:after{
+    content:"";
+    width:200px;
+    height:3px;
+    display:block;
+    background-color:palevioletred;
+    position:absolute;
+    margin-left:940px;
+    margin-top:-17px
+   
+}
+.taskImage{
+    margin-left: 900px;
+    height: 90px;
+    width: 90px;
+}
